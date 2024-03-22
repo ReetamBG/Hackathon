@@ -9,64 +9,100 @@
     <title>Document</title>
 </head>
 <body>
-    <nav style="position: fixed; z-index: 4;width: 100vw;" class="navbar navbar-expand-lg bg-body-tertiary">
-        <div class="container-fluid">
-            <a class="navbar-brand" href="#">FarmKart</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
-                aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                    <li class="nav-item">
-                        <a class="nav-link" aria-current="page" href="#about">About </a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" aria-current="page" href="#schemes">Scheme</a>
-                    </li>
-                    <!-- <li class="nav-item">
-                <a class="nav-link" href="#">Market Trends</a>
-                </li> -->
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Know More</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Crop Details</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#contact">Contact us</a>
-                    </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
-                            aria-expanded="false">
-                            Products
-                        </a>
-                        <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="#">Seeds</a></li>
-                            <li><a class="dropdown-item" href="#">Equipments</a></li>
-                            <li><a class="dropdown-item" href="#">Fertilizers</a></li>
-                            <li>
-                                <hr class="dropdown-divider">
-                            </li>
-                            <li><a class="dropdown-item" href="#">Others</a></li>
-                        </ul>
-                    </li>
-                    <!-- <li class="nav-item">
-                <a class="nav-link disabled" aria-disabled="true">Disabled</a>
-                </li> -->
-                </ul>
-                <form class="d-flex" role="search">
-                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                    <button class="btn btn-outline-success" type="submit">Search</button>
-                </form>
-                <button type="button" style="margin-left: 30px;" class="btn btn-primary">Become a Seller</button>
-                <button type="button" style="margin-left: 30px;" class="btn btn-primary">Login</button>
-                <a style="margin: 0 30px"><img src="../public/images/cart3.svg" width="23px"/></a>
-            </div>
-        </div>
-    </nav>
+    <nav
+    style="position: fixed; z-index: 4; width: 94vw"
+    class="navbar navbar-expand-lg bg-body-tertiary"
+  >
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">FarmKart</a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-bs-toggle="collapse"
+        data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="#about">About </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="#schemes"
+              >Scheme</a
+            >
+          </li>
+          <!-- <li class="nav-item">
+            <a class="nav-link" href="#">Market Trends</a>
+            </li> -->
+          <li class="nav-item">
+            <a class="nav-link" href="#">Know More</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Crop Details</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contact">Contact us</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a
+              class="nav-link dropdown-toggle"
+              href="#"
+              role="button"
+              data-bs-toggle="dropdown"
+              aria-expanded="false"
+            >
+              Products
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Seeds</a></li>
+              <li><a class="dropdown-item" href="#">Equipments</a></li>
+              <li><a class="dropdown-item" href="#">Fertilizers</a></li>
+              <li>
+                <hr class="dropdown-divider" />
+              </li>
+              <li><a class="dropdown-item" href="#">Others</a></li>
+            </ul>
+          </li>
+          <!-- <li class="nav-item">
+            <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+            </li> -->
+        </ul>
+        <form class="d-flex" role="search">
+          <input
+            class="form-control me-2"
+            type="search"
+            placeholder="Search"
+            aria-label="Search"
+          />
+          <button class="btn btn-outline-success" type="submit">
+            Search
+          </button>
+        </form>
+        <button
+          type="button"
+          style="margin-left: 30px"
+          class="btn btn-success"
+        >
+          Become a Seller
+        </button>
+        <button
+          type="button"
+          style="margin-left: 30px"
+          class="btn btn-success"
+        >
+          Login
+        </button>
+        <a style="margin: 0 30px"
+          ><img src="../public/images/cart3.svg" width="23px"
+        /></a>
+      </div>
+    </div>
+  </nav>
 
     <main>
         <section class="crop">
@@ -74,15 +110,22 @@
                 <img src="../public/images/rice.jpg"/>
             </div>
             <div class="crop-details">
-                <h1>Potato</h1>
-                <button id="climate"type="button" class="btn btn-primary">Climate</button>
-                <button id="nutrition" type="button" class="btn btn-primary">Pesticides</button>
-                <button id="fertilizers" type="button" class="btn btn-primary">Fertilizers</button>
-                <button id="seeds" type="button" class="btn btn-primary">Seeds</button>
+                <h1>Rice Seeds</h1>
+                <div>
+                    <p style="margin-bottom: 0; padding: 0;"><strong>Price: </strong>$20 (per kg)</p>
+                    <p style="margin-top: 0; padding: 0; color: grey;">(inclusive of all taxes)</p>
+                </div>
+
+                <div class="crop-buttons">
+                    <button class="btn btn-success buy" type="submit">Buy Now</button>
+                    <div class="crop-details-buttons">
+                        <button id="nutrition" type="button" class="btn btn-success">Pesticides</button>
+                        <button id="fertilizers" type="button" class="btn btn-success">Fertilizers</button>
+                    </div>
+            </div>
             </div>
         </section>
-        <div class="crop-requirements">
-        
+        <div class="crop-requirements">       
             <% if (locals.status === "climate") { %>
                 <h3>Climate</h3>
                 <p><strong>Temperatures:</strong> 20ºC to 35ºC</p>
@@ -92,14 +135,20 @@
                 <p><strong>Insecticides:</strong> Chlorpyrifos, Carbofuran, Imidacloprid</p>
                 <p><strong>Fungicides:</strong> Propiconazole, Tricyclazole, Azoxystrobin</p>
                 <p><strong>Herbicides:</strong> 2,4-D (2,4-Dichlorophenoxyacetic acid), Butachlor, PretilachlorPretilachlor</p>
-            <% } else if (locals.status === "fertilizers") { %>
-                <h3>Fertilesers</h3>
-                <p><strong>Nitrogen (N): </strong>Urea, Ammonium sulfate, Ammonium nitrate</p>
-                <p><strong>Phosphorus (P): </strong>Diammonium phosphate (DAP), Single superphosphate (SSP)</p>
-                <p><strong>Potassium (K): </strong>Muriate of Potash (Potassium chloride), Sulfate of Potash (Potassium sulfate)</p>
-                <p><strong>Micronutrients: </strong>Zinc sulfate, Ferrous sulfate</p>
-                <% } else if (locals.status === "seeds") { %>
-                
+            <% } else if (locals.status === "fertilizers") { %> -->
+                <h3>Fertilisers</h3>
+                <p><strong>Nitrogen (N): </strong><a href="">Urea</a>, <a href="">Ammonium sulfate</a>, <a href="">Ammonium nitrate</a></p>
+                <p><strong>Phosphorus (P): </strong><a href="">Diammonium phosphate (DAP)</a>, <a href=""> Single superphosphate (SSP)</a></p>
+                <p><strong>Potassium (K): </strong><a href="">Muriate of Potash (Potassium chloride)</a>, <a href="">Sulfate of Potash (Potassium sulfate)</a></p>
+                <p><strong>Micronutrients: </strong><a href="">Zinc sulfate</a>, <a href="">Ferrous sulfate</a></p>
+            <% } else if (locals.status === "seeds") { %>
+                <h3>Seeds</h3>
+                <p><strong>Certified Seeds</strong></p>
+                <p><strong>Hybrid Seeds</strong></p>
+                <p><strong>Varietal Seeds</strong></p>
+                <p><strong>Foundation Seeds</strong></p>
+                <p><strong>Breeder Seeds</strong></p>
+                <p><strong></strong></p>
             <% } %>
         </div>
     </main>
